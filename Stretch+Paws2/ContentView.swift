@@ -1,16 +1,26 @@
 //
 //  ContentView.swift
-//  Stretch+Paws2
+//  Stretch+Paws
 //
-//  Created by Lukas Gonzales on 11/26/21.
+//  Created by Lukas Gonzales on 11/18/21.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                NavigationLink(destination: DetailView()) {
+                    Text("Downward-facing Dog")
+                }
+                 
+                Text("Standing Forward Fold")
+                Text("Tree Pose")
+            }
+                .listStyle(.grouped)
+                .navigationBarTitle("Stretch + Paws")
+        }
     }
 }
 
@@ -19,3 +29,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
