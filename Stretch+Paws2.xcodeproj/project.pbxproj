@@ -63,9 +63,9 @@
 				71FE492027515B3600E930A9 /* ContentView.swift */,
 				71FE491E27515B2900E930A9 /* DetailView.swift */,
 				71FE491A27515B0300E930A9 /* Pose.swift */,
+				71C86030275C718300DFCC32 /* YogaTimer.swift */,
 				7129775627515969006FC62F /* Assets.xcassets */,
 				7129775827515969006FC62F /* Preview Content */,
-				71C86030275C718300DFCC32 /* YogaTimer.swift */,
 			);
 			path = "Stretch+Paws2";
 			sourceTree = "<group>";
